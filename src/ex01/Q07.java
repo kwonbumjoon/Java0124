@@ -20,7 +20,7 @@ public class Q07 {
 			System.out.print("1과 100사이의 값을 입력하세요. : ");
 			input = s.nextInt();
 			
-			if(input > answer)
+			if(answer > input)
 				System.out.println("더 큰 수를 입력하세요.");
 			else if(input < answer)
 				System.out.println("더 작은 수를 입력하세요.");
