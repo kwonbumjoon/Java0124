@@ -12,7 +12,7 @@ public class Q12 {
 		for(int i=0; i<counter.length; i++) {
 			System.out.print(counter[i]);
 			for(int j=0; j<counter[i]; j++)
-				System.out.println("*");
+				System.out.print("*");
 			System.out.println();
 		}
 			
